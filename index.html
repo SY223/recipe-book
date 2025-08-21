@@ -10,95 +10,114 @@
     <div id="top"></div>
     <div>
       <nav>
-        <a href="./index.html#">Home</a> |
-        <a href="./recipes.html#" target="_blank">Recipes</a> |
-        <a href="./howtos.html#" target="_blank">How Tos</a> |
-        <a href="./ingredients.html#" target="_blank">Ingredients</a> |
-        <a href="./about.html#" target="_blank">About Me</a>
+        <a href="./index.html">Home</a> |
+        <a href="./howtos.html" target="_blank">How Tos</a> |
+        <a href="./ingredients.html" target="_blank">Ingredients</a> |
+        <a href="./about.html" target="_blank">About Me</a>
       </nav>
     </div>
 
     <header>
-      <h1>Good Eats</h1>
-      <p>
-        <em>This refreshing salad</em> combines the crispness of cucumber, the
-        juiciness of tomatoes, and the zing of onion, all brought together with
-        a simple <u>olive oil</u> and <u>red cider vinegar</u> dressing. Perfect
-        for a light lunch or as a side dish.
-      </p>
+      <div>
+        <h1>Good Eats</h1>
+        <p>
+          <em>This refreshing salad</em> combines the crispness of cucumber, the
+          juiciness of tomatoes, and the zing of onion, all brought together
+          with a simple <u>olive oil</u> and <u>red cider vinegar</u> dressing.
+          Perfect for a light lunch or as a side dish.
+        </p>
+      </div>
     </header>
     <main>
       <section>
-        <!-- Recipe Image -->
-        <picture>
-          <!-- For large desktops -->
-          <source
-            media="(min-width: 1024px)"
-            srcset="./assets/image/vegetable-salad_1024x768.jpg"
-          />
-          <!-- For tablets -->
-          <source
-            media="(min-width: 600px)"
-            srcset="./assets/image/vegetable-salad_1_600x600.jpg"
-          />
-          <!-- For mobile devices -->
-          <source
-            media="(max-width: 599px)"
-            srcset="./assets/image/vegetable-salad.jpg"
-          />
-          <!-- Fallback image -->
-          <img
-            src="./assets/image/vegetable-salad.jpg"
-            alt="Bowl of fresh garden vegetable salad with onion, tomato, and cucumber"
-            width="400px"
-          />
-        </picture>
+        <div class="eat-container">
+          <!-- Recipe Image -->
+          <picture>
+            <!-- For large desktops -->
+            <source
+              media="(min-width: 1024px)"
+              srcset="./assets/image/vegetable-salad_1024x768.jpg"
+            />
+            <!-- For tablets -->
+            <source
+              media="(min-width: 600px)"
+              srcset="./assets/image/vegetable-salad_1_600x600.jpg"
+            />
+            <!-- For mobile devices -->
+            <source
+              media="(max-width: 599px)"
+              srcset="./assets/image/vegetable-salad.jpg"
+            />
+            <!-- Fallback image -->
+            <img
+              src="./assets/image/vegetable-salad.jpg"
+              alt="Bowl of fresh garden vegetable salad with onion, tomato, and cucumber"
+              width="400px"
+            />
+          </picture>
+          <div class="recipe-box">
+            <h2>15 Minutes Vegetable Salad</h2>
+            <p><strong>Preparation Time:</strong> 10 minutes</p>
+            <p><strong>Cooking Time:</strong> None</p>
+            <p><strong>Servings:</strong> 4</p>
+            <p><strong>Difficulty Level:</strong> Beginner</p>
+          </div>
+          <!-- Ingredients Section -->
+          <div class="ingredients-box">
+            <h2>Ingredients</h2>
+            <ul>
+              <li>1 medium onion, finely chopped</li>
+              <li>2 ripe tomatoes, diced</li>
+              <li>1 cucumber, sliced</li>
+              <li>1/2 teaspoon ground black pepper</li>
+              <li>2 tablespoons olive oil</li>
+              <li>1 tablespoon red cider vinegar</li>
+              <li>Sprinkle of salt to enhance taste</li>
+            </ul>
+            <!-- Ingredients Section ends -->
+          </div>
+          <!-- Instructions Section -->
+          <div class="instructions-box">
+            <h2>Instructions</h2>
+            <ol>
+              <li>
+                Combine onion, tomato, and cucumber in a large mixing bowl.
+              </li>
+              <li>
+                Drizzle olive oil and red cider vinegar over the vegetables.
+              </li>
+              <li>Sprinkle ground black pepper and salt to taste.</li>
+              <li>Toss everything together gently until well mixed.</li>
+              <li>
+                Serve immediately or refrigerate for 15 minutes for a chilled
+                salad.
+              </li>
+            </ol>
+            <!-- Instructions Section ends -->
+          </div>
 
-        <h2>15 Minutes Vegetable Salad</h2>
-        <p><strong>Preparation Time:</strong> 10 minutes</p>
-        <p><strong>Cooking Time:</strong> None</p>
-        <p><strong>Servings:</strong> 4</p>
-        <p><strong>Difficulty Level:</strong> Beginner</p>
-        <!-- Ingredients Section -->
-        <h2>Ingredients</h2>
-        <ul>
-          <li>1 medium onion, finely chopped</li>
-          <li>2 ripe tomatoes, diced</li>
-          <li>1 cucumber, sliced</li>
-          <li>1/2 teaspoon ground black pepper</li>
-          <li>2 tablespoons olive oil</li>
-          <li>1 tablespoon red cider vinegar</li>
-          <li>Sprinkle of salt to enhance taste</li>
-        </ul>  <!-- Ingredients Section ends -->
-       
-        <!-- Instructions Section -->
-        <h2>Instructions</h2>
-        <ol>
-          <li>Combine onion, tomato, and cucumber in a large mixing bowl.</li>
-          <li>Drizzle olive oil and red cider vinegar over the vegetables.</li>
-          <li>Sprinkle ground black pepper and salt to taste.</li>
-          <li>Toss everything together gently until well mixed.</li>
-          <li>
-            Serve immediately or refrigerate for 15 minutes for a chilled salad.
-          </li>
-        </ol><!-- Instructions Section ends -->
-        
-
-        <!-- Additional Information -->
-        <h2>Tips</h2>
-        <p>
-          For extra flavor, you can add fresh herbs such as parsley or basil. If
-          you prefer a milder onion flavor, soak the chopped onion in cold water
-          for 5 minutes before adding to the salad.
-        </p>
+          <!-- Additional Information -->
+          <div class="tips-box">
+            <h2>Tips</h2>
+            <p>
+              For extra flavor, you can add fresh herbs such as parsley or
+              basil. If you prefer a milder onion flavor, soak the chopped onion
+              in cold water for 5 minutes before adding to the salad.
+            </p>
+          </div>
+        </div>
       </section>
     </main>
-    
-    <footer><!-- Footer starts here -->
+
+    <footer>
+      <!-- Footer starts here -->
       <a href="#top">Back to Top</a>
       <span></span>
-      <p><em>Good Eats...Eat well, live better:</em> inspiring healthy choices for every meal.</p>
-    </footer> <!-- Footer ends here -->
-    
+      <p>
+        <em>Good Eats...Eat well, live better:</em> inspiring healthy choices
+        for every meal.
+      </p>
+    </footer>
+    <!-- Footer ends here -->
   </body>
 </html>
